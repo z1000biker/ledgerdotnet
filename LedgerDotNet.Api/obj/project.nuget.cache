@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NOXcncV1b3M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nik\\Documents\\work\\ledgerdotnet\\LedgerDotNet.Api\\LedgerDotNet.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nik\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\nik\\.nuget\\packages\\npgsql\\10.0.1\\npgsql.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

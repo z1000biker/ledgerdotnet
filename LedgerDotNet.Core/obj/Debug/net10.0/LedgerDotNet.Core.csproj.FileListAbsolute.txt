@@ -1,0 +1,12 @@
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\bin\Debug\net10.0\LedgerDotNet.Core.deps.json
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\bin\Debug\net10.0\LedgerDotNet.Core.dll
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\bin\Debug\net10.0\LedgerDotNet.Core.pdb
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.csproj.AssemblyReference.cache
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.AssemblyInfoInputs.cache
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.AssemblyInfo.cs
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.csproj.CoreCompileInputs.cache
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.dll
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\refint\LedgerDotNet.Core.dll
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\LedgerDotNet.Core.pdb
+C:\Users\nik\Documents\work\ledgerdotnet\LedgerDotNet.Core\obj\Debug\net10.0\ref\LedgerDotNet.Core.dll
