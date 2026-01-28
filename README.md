@@ -173,7 +173,7 @@ dotnet test
 cd LedgerDotNet.Api
 dotnet run
  ```
-Why This Is Not a Feature Demo
+##Why This Is Not a Feature Demo
 
 This repository is intentionally small.
 
@@ -189,9 +189,7 @@ comfort with database-driven invariants
 
 Additional features would reduce clarity rather than increase confidence.
 
-License
-
-MIT
+##License: MIT
 
 
 ---
