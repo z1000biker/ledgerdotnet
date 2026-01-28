@@ -34,15 +34,19 @@ public sealed class LedgerRepository
                 tx
             );
 
-            foreach (var entry in entries)
+            // Acquire advisory locks in deterministic order to prevent deadlocks
+            var accountIds = entries.Select(e => e.AccountId).Distinct().OrderBy(id => id).ToList();
+            foreach (var accountId in accountIds)
             {
-                // Acquire advisory lock for this account to serialize writes
                 await conn.ExecuteAsync(
                     "SELECT pg_advisory_xact_lock(hashtext(@AccountId::text))",
-                    new { entry.AccountId },
+                    new { AccountId = accountId },
                     tx
                 );
+            }
 
+            foreach (var entry in entries)
+            {
                 // Determine next sequence number (now safe due to lock)
                 var nextSeq = await conn.ExecuteScalarAsync<long?>(
                     """
