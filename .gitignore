@@ -1,0 +1,18 @@
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.zip
+ManualTest.cs
+LedgerVerify/
+
+# OS files
+.DS_Store
+Thumbs.db
