@@ -172,7 +172,7 @@ docker-compose up -d
 dotnet test
 cd LedgerDotNet.Api
 dotnet run
----
+ ```
 Why This Is Not a Feature Demo
 
 This repository is intentionally small.
