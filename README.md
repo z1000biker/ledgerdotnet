@@ -158,6 +158,15 @@ Tests explicitly cover:
 
 ---
 
+### Deadlock Prevention
+
+Advisory locks are acquired in a deterministic, sorted order (by `AccountId`) to prevent deadlocks when multiple accounts are involved in a single operation.
+
+This eliminates circular wait conditions that can arise when concurrent operations attempt to lock the same set of accounts in different orders.
+
+The approach provides deadlock-free per-account serialization with negligible overhead and no additional coordination mechanisms.
+---
+
 ## Running the Project
 
 ### Prerequisites
