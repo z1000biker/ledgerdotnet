@@ -172,3 +172,26 @@ docker-compose up -d
 dotnet test
 cd LedgerDotNet.Api
 dotnet run
+---
+Why This Is Not a Feature Demo
+
+This repository is intentionally small.
+
+Its purpose is to demonstrate:
+
+systems thinking
+
+correctness-first design
+
+explicit trade-off analysis
+
+comfort with database-driven invariants
+
+Additional features would reduce clarity rather than increase confidence.
+
+License
+
+MIT
+
+
+---
